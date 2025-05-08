@@ -1,7 +1,7 @@
 ,title,description,url,image
 0,Todo App,A distraction-free web app to help you focus on creating and completing tasks.,https://github.com/em-ry/my-todo-webapp,1.png
 1,Portfolio Website,A website built entirely in Python to showcase coding projects and apps.,https://github.com/em-ry/My_Portfolio_App,2.png
-2,PDF Templates,A script that generates PDF templates of multiple pages given some predefined guidelines.,https://github.com/em-ry,3.png
+2,PDF Templates,A script that generates PDF templates of multiple pages given some predefined guidelines.,https://github.com/em-ry/PDF_Templates,3.png
 3,PDF Invoices,A script that reads invoice records from Excel files and automatically generates PDF invoices.,https://github.com/em-ry,4.png
 4,Positive News Site,A website that gets data from a news API and uses sentiment analysis to publish only positive news.,https://github.com/em-ry,5.png
 5,Weather API,A REST API built with Python and Flask to serve historical weather data for various cities.,https://github.com/em-ry,6.png
