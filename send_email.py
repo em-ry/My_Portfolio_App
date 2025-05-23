@@ -1,22 +1,17 @@
-from dotenv import load_dotenv
-import os
-import smtplib, ssl
-
-load_dotenv()
-
-EMAIL_ADDR = ""
-EMAIL_PWD = ""
+import smtplib
+import ssl
+import streamlit as st
 
 
 def send_email(message):
     host = "smtp.gmail.com"
     port = 465
 
-    password = os.getenv("EMAIL_PWD")
-    username = os.getenv("EMAIL_ADDR")
+    password = st.secrets["EMAIL_PWD"]
+    username = st.secrets["EMAIL_ADDR"]
 
     # create receiver address
-    receiver = os.getenv("EMAIL_ADDR")
+    receiver = st.secrets["EMAIL_ADDR"]
     # create secure context
     context = ssl.create_default_context()
 
